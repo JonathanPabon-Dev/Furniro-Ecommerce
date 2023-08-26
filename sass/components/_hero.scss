@@ -1,7 +1,7 @@
 .hero {
   &__container {
     padding: 150px 60px 80px;
-    background-image: url(../../images/hero-bg.jpg);
+    background-image: url(../images/hero-bg.jpg);
     background-size: cover;
     background-position: bottom;
     @include centered(flex-end);

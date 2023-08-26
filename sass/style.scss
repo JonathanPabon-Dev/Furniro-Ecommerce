@@ -19,9 +19,17 @@ body {
 
 a {
   text-decoration: none;
+  color: getColor('font-color');
+  cursor: pointer;
   &:visited {
     color: currentColor;
   }
+}
+
+.btn {
+  background: none;
+  border-style: none;
+  cursor: pointer;
 }
 
 .container {
