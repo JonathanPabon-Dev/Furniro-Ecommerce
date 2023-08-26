@@ -1,0 +1,19 @@
+$colors: (
+  'primary': #b88e2f,
+  'green-accent': #2ec1ac,
+  'red-accent': #e97171,
+  'font-color': #333,
+  'font-color1': #666,
+  'color-white': #fff,
+  'color-black': #000,
+  'color-gray1': #3a3a3a,
+  'color-gray2': #616161,
+  'color-gray3': #898989,
+  'color-gray4': #b0b0b0,
+  'color-gray5': #d8d8d8,
+  'light-bg': #f4f5f7,
+);
+
+@function getColor($key) {
+  @return map-get($colors, $key);
+}

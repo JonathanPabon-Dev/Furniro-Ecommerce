@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;500;600;700&display=swap');
+@import 'utils/colors';
+@import 'utils/mixins';
+@import 'components/header';
+@import 'components/hero';
+@import 'components/products';
+@import 'components/footer';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: getColor('font-color');
+}
+
+:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  &:visited {
+    color: currentColor;
+  }
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.list {
+  list-style: none;
+}

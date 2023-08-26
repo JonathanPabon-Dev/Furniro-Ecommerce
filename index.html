@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container container">
+        <a href="./index.html" class="header__logo">
+          <img class="header__logo--img" src="./images/logo.png" alt="logo furniro" />
+          <p class="header__logo--text">Furniro</p>
+        </a>
+        <nav class="header__nav">
+          <ul class="header__nav--list list">
+            <li class="header__nav--item">
+              <a href="#" class="nav__item--link active">Home</a>
+            </li>
+            <li class="header__nav--item">
+              <a href="#" class="nav__item--link">Shop</a>
+            </li>
+            <li class="header__nav--item">
+              <a href="#" class="nav__item--link">About</a>
+            </li>
+            <li class="header__nav--item">
+              <a href="#" class="nav__item--link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header__icons--list list">
+          <li class="header__icons--item">
+            <a href="#" class="icons__item--link">
+              <iconify-icon icon="mdi:account-alert-outline"></iconify-icon>
+            </a>
+          </li>
+          <li class="header__icons--item">
+            <a href="#" class="icons__item--link">
+              <iconify-icon icon="akar-icons:search"></iconify-icon>
+            </a>
+          </li>
+          <li class="header__icons--item">
+            <a href="#" class="icons__item--link">
+              <iconify-icon icon="akar-icons:heart"></iconify-icon>
+            </a>
+          </li>
+          <li class="header__icons--item">
+            <a href="#" class="icons__item--link">
+              <iconify-icon icon="ant-design:shopping-cart-outlined"></iconify-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero">
+        <div class="hero__container container">
+          <div class="hero__card">
+            <h2 class="hero__card--subtitle">New Arrival</h2>
+            <h1 class="hero__card--title">Discover our new collection</h1>
+            <p class="hero__card--text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti aliquid saepe dolore
+              dignissimos. Eum, consequatur.
+            </p>
+            <button class="hero__card--btn" type="button">BUY NOW</button>
+          </div>
+        </div>
+      </section>
+      <section class="products section">
+        <div class="products__container container">
+          <h2 class="products__categories--title">Browse the range</h2>
+          <p class="products__categories--text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+          <ul class="products__categories--list list">
+            <li class="products__categories--item">
+              <a class="products__item--link">
+                <img
+                  class="products__item--img"
+                  src="./images/dining1.jpg"
+                  alt="Mesa con mantel blanco tejido"
+                />
+              </a>
+              <h3 class="products__item--name">Dining</h3>
+            </li>
+            <li class="products__categories--item">
+              <a class="products__item--link">
+                <img
+                  class="products__item--img"
+                  src="./images/living1.jpg"
+                  alt="Sofá con cojines"
+                />
+              </a>
+              <h3 class="products__item--name">Living</h3>
+            </li>
+            <li class="products__categories--item">
+              <a class="products__item--link">
+                <img class="products__item--img" src="./images/bedroom1.jpg" alt="Cama y plantas" />
+              </a>
+              <h3 class="products__item--name">Bedroom</h3>
+            </li>
+          </ul>
+          <h2 class="products__grid--title">Our products</h2>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__item--address">
+          <h2 class="footer--logo">Funiro.</h2>
+          <p class="footer--address">400 University Drive Suite 200 Coral Gables, FL 33134 USA</p>
+        </div>
+        <div class="footer__item--links">
+          <h3 class="links--title">Links</h3>
+          <ul class="links__list list">
+            <li class="links__list--item">
+              <a href="./index.html" class="item--link">Home</a>
+            </li>
+            <li class="links__list--item">
+              <a href="#" class="item--link">Shop</a>
+            </li>
+            <li class="links__list--item">
+              <a href="#" class="item--link">About</a>
+            </li>
+            <li class="links__list--item">
+              <a href="#" class="item--link">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__item--help">
+          <h3 class="help--title">Help</h3>
+          <ul class="help__list list">
+            <li class="help__list--item">
+              <a href="#" class="item--link">Payment Options</a>
+            </li>
+            <li class="help__list--item">
+              <a href="#" class="item--link">Returns</a>
+            </li>
+            <li class="help__list--item">
+              <a href="#" class="item--link">Privacy Policies</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__item--newsletter">
+          <h3 class="newsletter--title">Newsletter</h3>
+          <form class="newsletter--form">
+            <input type="email" name="email" placeholder="Enter your email address" />
+            <input type="submit" value="SUSCRIBE" />
+          </form>
+        </div>
+      </div>
+      <p class="footer__rights container">2023 furino. All rights reverved</p>
+    </footer>
+
+    <script src="./js/main.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+.hero {
+  &__container {
+    padding: 150px 60px 80px;
+    background-image: url(../../images/hero-bg.jpg);
+    background-size: cover;
+    background-position: bottom;
+    @include centered(flex-end);
+  }
+  &__card {
+    right: 60px;
+    width: 600px;
+    padding: 60px 40px 40px;
+    border-radius: 10px;
+    background-color: #fff3e3cc;
+    backdrop-filter: blur(10px);
+    &--subtitle {
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: 3px;
+    }
+    &--title {
+      margin-top: 5px;
+      color: getColor('primary');
+      font-size: 52px;
+      font-weight: 700;
+      line-height: 1.25;
+    }
+    &--text {
+      margin: 20px 0 45px;
+    }
+    &--btn {
+      padding: 25px 72px;
+      border: none;
+      border-radius: 3px;
+      background-color: getColor('primary');
+      color: getColor('color-white');
+      font-size: 16px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+  }
+}

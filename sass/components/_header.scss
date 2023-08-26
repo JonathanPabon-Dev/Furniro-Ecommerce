@@ -1,0 +1,58 @@
+.header {
+  @include centered;
+  height: 80px;
+  &__container {
+    @include centered(space-between);
+  }
+  &__logo {
+    @include centered;
+    gap: 5px;
+    &--text {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 34px;
+      font-weight: 700;
+    }
+  }
+  &__nav {
+    @include centered;
+    color: getColor('font-color1');
+    &--list {
+      @include centered;
+      gap: 40px;
+    }
+    &--item {
+      font-size: 16px;
+      font-weight: 500;
+      .nav__item--link {
+        padding: 5px 10px;
+        &:hover,
+        &:focus,
+        &:focus-within,
+        &.active {
+          color: getColor('font-color');
+          border-bottom: 3px solid getColor('primary');
+        }
+      }
+    }
+  }
+  &__icons--list {
+    @include centered;
+    gap: 45px;
+  }
+
+  &__icons--item {
+    @include centered;
+    .icons__item--link {
+      @include centered;
+      font-size: 25px;
+      font-weight: 400;
+    }
+    .icons__item--link {
+      &:hover,
+      &:focus,
+      &:focus-within {
+        color: getColor('primary');
+      }
+    }
+  }
+}
