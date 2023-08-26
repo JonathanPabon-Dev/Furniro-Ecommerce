@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;500;600;700&display=swap');
 @import 'utils/colors';
 @import 'utils/mixins';
-@import 'components/header';
-@import 'components/hero';
-@import 'components/products';
-@import 'components/footer';
 
 * {
   margin: 0;
@@ -34,9 +30,14 @@ a {
 }
 
 .section {
-    padding: 60px 0;
+  padding: 60px 0;
 }
 
 .list {
   list-style: none;
 }
+
+@import 'components/header';
+@import 'components/hero';
+@import 'components/products';
+@import 'components/footer';
